@@ -47,6 +47,8 @@ bool can_go(int x, int y) {
 
 
 // Generate a maze (recursively)
+//   Generates a maze using the Recursive Backtracker method:
+//   https://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_backtracker
 void generate_maze(int x, int y) {
   maze[x][y] = false;  // clear the spot in current position
 
